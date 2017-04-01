@@ -1,0 +1,21 @@
+li {list-style-type: none;  
+font-size: 16pt;  
+}  
+body
+{
+	text-align:center;
+	margin: auto;  
+	padding-top: 10px;  
+	padding-bottom: 10px;  
+	width: 400px;  
+	background : #D8F1F8;  
+	border: 1px solid silver;  
+}  
+input 
+{  
+	font-size: 20pt;  
+	background-color: lightyellow;
+}  
+input submit {  
+font-size: 12pt;  
+}  

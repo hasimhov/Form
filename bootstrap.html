@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+ 	<script src="bootstrap.js"></script> 
+  </head>
+  <body>
+  	<form name="form1" onsubmit="submit()">
+  	<div class="form-group row">
+ 		 <label for="usr" class="col-2 col-form-label">Name : </label>
+ 		 <div class="col-10">
+  		 	<input type="text" class="form-control" id="usr">
+		 </div>
+	</div>
+	<div class="form-group row">
+  		<label for="email" class="col-2 col-form-label">Email : </label>
+		<div class="col-10">
+			<input class="form-control" type="email" id="email">
+		</div>	
+	</div>
+	<div class="form-group row">
+  		<label for="password" class="col-2 col-form-label">Create a Password : </label>
+  		<div class="col-10">
+   			<input class="form-control" type="password"  id="password">
+ 		</div>
+	</div>
+	<div class="form-group row">
+  		<label for="Confirmpassword" class="col-2 col-form-label">Confirm Password : </label>
+  		<div class="col-10">
+   			<input class="form-control" type="password"  id="Confirmpassword">
+ 		</div>
+	</div>
+	<div class="form-group row">
+		<label for="password" class="col-2 col-form-label">Select Gender : <br></label>
+		<input type="radio" name="gender" value="male" checked> Male<br>
+  		<input type="radio" name="gender" value="female"> Female<br>
+  		<input type="radio" name="gender" value="other"> Other
+  	</div>
+	<input type="submit" value="Submit" id="Submit">
+	</form>
+
+  </body>
+</html>
